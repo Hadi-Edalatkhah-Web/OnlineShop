@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    width: 100vw;
+    margin-top: 55px;
+    justify-content: space-around;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+.peyment{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    margin-top: 80px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: solid 1px #6d5e5e;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    border: none;
+    border-radius: 15px;
+    background-color: #ccc;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.links h3{
+    font-size: 0.8rem;
+}

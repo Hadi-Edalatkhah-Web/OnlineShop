@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: solid 1px #6d5e5e;
+    align-items: center;
+}
+.container h3{
+    font-size: 1rem;
+}
+.productPrice{
+    background-color:rgb(181, 214, 14);
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 5px;
+    
+}
+.buttons{
+    border: none; 
+    border-radius: 15px;
+    background-color: #ccc;
+    width: 40px;
+    height: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}

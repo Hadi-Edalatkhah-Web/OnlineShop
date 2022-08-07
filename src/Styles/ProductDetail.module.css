@@ -1,0 +1,29 @@
+.container{
+    
+    display: flex;
+  
+    align-items: center;
+    min-height: 100vh;
+    max-height: fit-content;
+    justify-content: center;
+}
+.product{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    border: solid 1px #000;
+}
+.productImage{
+    width: 250px;
+    border-radius: 15px;
+}
+.productDetails{
+    width: 600px;
+}
+h1{
+    font-size: 1rem;
+}
